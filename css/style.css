@@ -311,8 +311,8 @@ button {
     background: #1f1f1f;
 }
 
-.bg-light {
-    background-color: transparent !important;
+.bg-dark {
+    background-color: #182635 transparent !important;
 }
 
 .logo {
@@ -329,7 +329,7 @@ button {
     padding-left: 10px;
     font-size: 18px;
     color: #fcfefe;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -345,7 +345,14 @@ button {
 }
 
 .navbar {
-    padding: 30px 0px 30px 0px;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+.logo {
+    margin-right: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .login_text {}
@@ -382,8 +389,8 @@ button {
     text-align: center;
     color: #ffffff;
     background-color: #fda417;
-    border-radius: 40px;
-    padding: 8px;
+    border-radius: 5px;
+    padding: 10px;
     text-transform: uppercase;
 }
 
@@ -1286,7 +1293,7 @@ textarea#comment.massage-bt::placeholder {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #ffffff;
+    background-color: #25383C;
     height: auto;
 }
 
@@ -1295,7 +1302,7 @@ textarea#comment.massage-bt::placeholder {
     float: left;
     font-size: 16px;
     margin: 15px 0px;
-    color: #252525;
+    color: #e6dfdf;
     text-align: center;
 }
 
